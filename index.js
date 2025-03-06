@@ -171,6 +171,7 @@ module.exports = {
         '@typescript-eslint/strict-boolean-expressions	Restricts': 'off',
         '@typescript-eslint/switch-exhaustiveness-check': 'off',
         '@typescript-eslint/unbound-method': 'off',
+        "@typescript-eslint/lines-between-class-members": "off",
         // extension rules
         '@typescript-eslint/dot-notation': 'off',
         'dot-notation': ['error', { allowKeywords: true }],
