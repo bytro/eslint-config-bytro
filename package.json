@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bytro",
-  "version": "2.26.9",
+  "version": "2.27.2",
   "description": "Bytro Labs ESLint configuration",
   "main": "index.js",
   "repository": {
@@ -19,18 +19,18 @@
   "author": "Bytro Labs <tech@bytro.com>",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "~7",
-    "@typescript-eslint/parser": "~7",
-    "eslint": "~8",
+    "@typescript-eslint/eslint-plugin": "~8",
+    "@typescript-eslint/parser": "~8",
+    "eslint": "~10",
     "eslint-plugin-import": "~2",
-    "eslint-plugin-jsdoc": ">= 48",
+    "eslint-plugin-jsdoc": "~48",
     "eslint-plugin-prettier": "~5",
-    "eslint-plugin-simple-import-sort": "~12",
+    "eslint-plugin-simple-import-sort": "~13",
     "prettier": "~3"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-config-prettier": "^9.1.0"
+    "eslint-config-prettier": "^10.1.8"
   }
 }
